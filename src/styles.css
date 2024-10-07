@@ -1,3 +1,8 @@
+strong{
+  color: #f65282;
+  font-size: large;
+}
+
 body {
     background: #f9f7fe;
     font-family: "Roboto", sans-serif;
@@ -34,7 +39,7 @@ body {
   .search-form-button {
     margin-left: 5px;
     font-size: 16px;
-    background-color: #885df1;
+    background-color: #f65282;
     color: white;
     border: none;
     padding: 15px 30px;
@@ -53,8 +58,9 @@ body {
 
   .weather-app-city {
     margin: 0;
-    font-size: 38px;
+    font-size: 42px;
     line-height: 48px;
+    color: #f65282;
   }
 
   .weather-app-details {
@@ -74,9 +80,10 @@ body {
   }
   
   .current-city {
-    font-size: 38px;
+    font-size: 42px;
     font-weight: 900;
     margin: 0;
+    color: #f65282
   }
   .current-details {
     color: rgba(39, 33, 66, 0.4);
@@ -85,26 +92,29 @@ body {
     line-height: 24px;
   }
   
-  .current-details strong {
+  .current-details 
+      strong {
     color: #f65282;
   }
   
-  .current-temperature-icon {
+  .weather-temperature-icon {
     position: relative;
     top: -8px;
-    font-size: 40px;
-    margin-right: 10px;
+    font-size: 80px;
+    margin-right: -35px;
   }
   
-  .current-temperature-value {
-    font-size: 80px;
+  .weather-temperature-value {
+    font-size: 86px;
     font-weight: bold;
+    color: #f65282;
   }
   
   .current-temperature-unit {
     font-size: 28px;
     position: relative;
-    top: -38px;
+    top: 10px;
+    color: #f65282;
   }
   
   footer {
