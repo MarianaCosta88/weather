@@ -11,7 +11,6 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>My weather application</title>
   </head>
   <body>
@@ -27,13 +26,13 @@
         <div>
           <h1 class="weather-app-city" id="city"></h1>
         <p class="weather-app-details">
-          Tuesday, 14:49, Scattered Clouds
+          <span id="time"></span>, <span id="description"></span>
           <br/>
-          Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
+          Humidity: <strong id="humidity"></strong>, Wind: <strong id="wind-speed"></strong>
         </p>
       
       </div>
-      <div class="weather-temperature-icon" id="weather-app-icon">⛅</div>
+      <div class="weather-temperature-icon" id="weather-app-icon"></div>
       <div class="weather-temperature-value" id="temperature"></div>
       <div class="current-temperature-unit" id="weather-app-unit">ºC</div>
     </div> 
