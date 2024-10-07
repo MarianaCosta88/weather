@@ -21,31 +21,49 @@ body {
     padding-bottom: 30px;
   }
   
-  .search-input {
+  .search-form-input {
     background-color: #f9f7fe;
     border: none;
     color: rgba(39, 33, 66, 0.4);
     font-size: 16px;
-    padding: 20px;
-    width: 75%;
+    padding: 15px 20px;
+    width: 80%;
     border-radius: 6px;
   }
   
-  .search-button {
+  .search-form-button {
     margin-left: 5px;
     font-size: 16px;
     background-color: #885df1;
     color: white;
     border: none;
-    padding: 20px;
+    padding: 15px 30px;
     line-height: 1;
-    border-radius: 5px;
+    border-radius: 6px;
   }
   
   main {
     padding: 30px 0;
   }
   
+  .weather-app-data {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .weather-app-city {
+    margin: 0;
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  .weather-app-details {
+    font-size: 16px;
+    color: rgba(39,33,66,0.4);
+    line-height: 20px;
+
+  }
+
   .current-temperature {
     font-size: 48px;
   }
@@ -92,7 +110,10 @@ body {
   footer {
     border-top: 1px solid #f9f7fe;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 30px 0 0 0;
+    font-size: 14px;
+    color: rgba(0, 0, 0, alpha);
+
   
     color: rgba(39, 33, 66, 0.4);
   }
