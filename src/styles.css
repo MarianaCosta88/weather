@@ -76,7 +76,7 @@ body {
   }
 
   .current-temperature {
-    font-size: 48px;
+    font-size: 35px;
   }
   
   .current-weather {
@@ -109,7 +109,7 @@ body {
   }
   
   .weather-temperature-value {
-    font-size: 88px;
+    font-size: 75px;
     font-weight: bold;
     color: #f65282;
     line-height: 88px;
